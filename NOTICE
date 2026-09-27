@@ -1,0 +1,9 @@
+Gemma 4 26B A4B, instruction tuned, QAT Q4_0 GGUF.
+Copyright Google LLC. Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Source: https://huggingface.co/google/gemma-4-26B-A4B-it-qat-q4_0-gguf
+at commit d1c082be9cf3c8a514acf63b8761f4b41935842e, file gemma-4-26B_q4_0-it.gguf.
+
+Change made here: the file is split into parts of 1,992,294,400 bytes so each fits
+a GitHub release asset. The bytes are unchanged; joined, the parts give the original
+file, SHA-256 3eca3b8f6d7baf218a7dd6bba5fb59a56ee25fe2d567b6f5f589b4f697eca51d.
