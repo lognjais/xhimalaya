@@ -8,10 +8,11 @@ every byte, and then runs with no network at all.
 
 | Release | Model | Size | Parts |
 |---|---|---|---|
-| `gemma-4-26b-a4b-qat-q4_0-v1` | Gemma 4 26B A4B, instruction tuned, Google's official QAT Q4_0 GGUF | 14,439,363,584 bytes | 8 |
+| `gemma-4-26b-a4b-qat-q4_0-v1` | Gemma 4 26B A4B, instruction tuned, Google's official QAT Q4_0 GGUF | 14,439,363,584 bytes | 29 |
 
-Each part is under GitHub's 2 GiB limit for a release asset. `SHA256SUMS` lists every
-part and the joined file.
+Each part is under GitHub's 2 GiB limit for a release asset: four of 1,992,294,400 bytes,
+then 25 smaller ones of 256 MiB, cut small so an upload or download over a slow link
+restarts cheaply. `SHA256SUMS` lists every part and the joined file.
 
 ## Get the model
 
