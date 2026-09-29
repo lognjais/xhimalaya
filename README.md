@@ -1,6 +1,6 @@
 # xhimalaya
 
-Model weights for [Himalaya](https://jvoltci.github.io/himalaya-ide/), and nothing else.
+Model weights for [Himalaya](https://lognjais.github.io/himalaya-ide/), and nothing else.
 Himalaya's first-run setup downloads its model from this repository's releases, checks
 every byte, and then runs with no network at all.
 

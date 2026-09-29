@@ -4,7 +4,7 @@
 # Usage: ./assemble.sh [output folder, default .]
 set -euo pipefail
 TAG=gemma-4-26b-a4b-qat-q4_0-v1
-BASE="https://github.com/jvoltci/xhimalaya/releases/download/$TAG"
+BASE="https://github.com/lognjais/xhimalaya/releases/download/$TAG"
 OUT="${1:-.}"
 mkdir -p "$OUT" && cd "$OUT"
 curl -fsSL -o SHA256SUMS "$BASE/SHA256SUMS"
